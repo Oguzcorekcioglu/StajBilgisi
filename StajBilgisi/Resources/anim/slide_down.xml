@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:fromYDelta="-100%p" android:toYDelta="0"
+           android:duration="500"/>
+
+<!--from Y delta'da nerden geldiğini geldiğini gösteriyor - ve + olayları da alttan veya yukarıdan gelmesine göre değişiyor!
+Durationlar ms cinsindendir ! -->

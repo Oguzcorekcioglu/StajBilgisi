@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:fromXDelta="0" android:toXDelta="-100%p"
+           android:duration="500"/>
+
+<!--Burdaki toxDelta gidiceği kısmı gösteriyor ! -100 deyince soldan gidiyor kaldırırsak sağdan gidiyor !  Durationlar ms cinsindendir !  -->

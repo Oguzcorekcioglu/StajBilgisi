@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="37dp"
+    android:weightSum="100"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp">
+  <TextView
+      android:id="@+id/txtKurumadi"
+      android:text="Kurum Adı"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:layout_weight="25"
+      android:gravity="center"
+      android:textColor="#333333" />
+  <TextView
+      android:id="@+id/txtDepartman"
+      android:text="Departman"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:layout_weight="25"
+      android:gravity="center"
+      android:textColor="#333333" />
+  <TextView
+      android:id="@+id/txtCalisanSayisi"
+      android:text="Çalışan Sayısı"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:layout_weight="25"
+      android:gravity="center"
+      android:textColor="#333333" />
+  <TextView
+      android:id="@+id/txtSorumluluk"
+      android:text="Sorumluluk"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:layout_weight="25"
+      android:gravity="center"
+      android:textColor="#333333" />
+</LinearLayout>

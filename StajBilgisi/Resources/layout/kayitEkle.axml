@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E2E2E2">
+<!--Hepsi görüldüğü üzere ScrollView içinde ScrollView'inde 1 tane parent'ı olabilir.-->
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1">
+            <TextView
+                android:text="Çalıştığınız Kurumun Adı:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/textView1" />
+            <EditText
+                android:inputType="text"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:id="@+id/edtKayitEkleKurumAdi"
+                android:textColor="#000"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="4dp" />
+            <TextView
+                android:text="Kurumunuzdaki Çalışan Sayısı:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textView2" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:id="@+id/edtKayitEkleCalisanSayisi"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="4dp" />
+            <TextView
+                android:text="Çalıştığınız Departman:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textView3" />
+            <EditText
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:id="@+id/edtKayitEkleKurumDepartman"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="4dp" />
+            <TextView
+                android:text="Kurumdaki Göreviniz:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textView4" />
+            <EditText
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:id="@+id/edtKayitEkleKurumGorev"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="4dp" />
+            <TextView
+                android:text="Kurumunuzun Adresi:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textView5" />
+            <EditText
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:id="@+id/edtKayitEkleKurumAdres"
+                android:textColor="#000"
+                android:singleLine="true"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp" />
+            <TextView
+                android:text="Lütfen Yorumunuzu Giriniz:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textView5" />
+            <AutoCompleteTextView
+                android:id="@+id/edtKayitEkleKurumYorum"
+                android:textColor="#000"
+                android:background="#DEDDDC"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="4dp" />
+            <Button
+                android:id="@+id/btnKayitOlustur"
+                android:text="Kayıt Oluştur"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonkayiteklestyle"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp" />
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

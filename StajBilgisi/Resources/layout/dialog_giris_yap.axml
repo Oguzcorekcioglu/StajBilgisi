@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#DEDEDC"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="320dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/edtKullaniciAdiGirisDialog"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Kullanıcı Adı"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:textColorHint="#00131a"
+        android:textColor="#00131a" />
+    <EditText
+        android:layout_below="@id/edtKullaniciAdiGirisDialog"
+        android:inputType="textPassword"
+        android:id="@+id/edtKullaniciSifreGirisDialog"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Kullanıcı Şifre"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:textColor="#00131a"
+        android:textColorHint="#00131a" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtKullaniciSifreGirisDialog"
+        android:layout_marginTop="50dp">
+        <Button
+            android:text="Giriş Yap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDialogGirisYap"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:height="35dp"
+            android:paddingTop="2dp"
+            android:background="@drawable/buttongirisstyle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp" />
+    </RelativeLayout>
+</RelativeLayout>

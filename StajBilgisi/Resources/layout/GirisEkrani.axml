@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Lütfen Size Uygun Olan Butonu Seçiniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9f7f00"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="24dp"
+        android:textSize="21dp" />
+    <Button
+        android:text="FİRMALARI LİSTELE"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:background="@drawable/buttonfirmalarilistelestyle"
+        android:id="@+id/btnFirmalariListele" />
+    <Button
+        android:text="KAYIT EKLE"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/buttongiriskayitstyle"
+        android:id="@+id/btnKayitEkle" />
+    <Button
+        android:text="YORUMLARIMI GÖR"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonyorumlarigorstyle"
+        android:textSize="20dp"
+        android:id="@+id/btnYorumlarimiGor" />
+</LinearLayout>

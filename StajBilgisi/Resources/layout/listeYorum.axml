@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="İlgili Yorum"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/txtIlgiliYorum"
+        android:textColor="#4A6EA9"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="28dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtYorumGozuken"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#000" />
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="6dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtYorumAdres"
+        android:textColor="#000"
+        android:gravity="right" />
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtYorumTarih"
+        android:textColor="#000"
+        android:gravity="right" />
+</LinearLayout>
